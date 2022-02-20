@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     # train & save
     model = fasttext(tokenized_data)
-    fname = get_tmpfile(config.fname_dif)
+    fname = get_tmpfile(config.fname_dir)
     fasttext.save(fname)
     
     # similar test
